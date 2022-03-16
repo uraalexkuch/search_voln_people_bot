@@ -1,0 +1,16 @@
+{
+  "name": "search_voln_people_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node search_voln_people_bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.56.0",
+    "telegraf": "^4.7.0"
+  }
+}
