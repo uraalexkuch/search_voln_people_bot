@@ -2,7 +2,7 @@
   "version": 2,
   "name": "search_voln_people_bot",
   "builds": [
-    { "src": "search_voln_people_bot.js", "use": "@vercel/nodemon" }
+    { "src": "search_voln_people_bot.js", "use": "@vercel/node" }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/search_voln_people_bot.js" }
